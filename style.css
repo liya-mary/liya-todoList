@@ -1,0 +1,92 @@
+
+.form-container {
+    padding-top: 10%;
+}
+input[type=text], input[type=password] {
+    width:300px;
+    padding:10px;
+    margin: 5px 0 22px 0;
+    border:2px solid rosybrown;
+    background: #f1f1f1;
+}
+  
+input[type=text]:focus, input[type=password]:focus {
+    background-color:rgb(228, 228, 228);
+    outline: none;
+}
+.btn {
+    background-color:rosybrown;
+    color:black;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+    opacity: 0.9;
+}
+#label1 { 
+      display: block; width: 100px; 
+}
+  
+.btn:hover {
+    opacity: 1;
+}
+/*navbar*/
+.topnav{  
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    
+    overflow: hidden;
+  }
+  
+  .topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: bold;
+  }
+  
+
+  .topnav a:hover {
+    background-color: rgb(235, 233, 233);
+    color:rgb(167, 126, 126);
+  }
+  
+li{
+      list-style-type: none;
+      display: flex;
+      width: 100%;
+}
+
+#head{
+    margin-left: 10%;
+}
+
+#todo{
+    padding-left: 10%;
+}
+
+input[type=checkbox][disabled]{
+    outline:1px solid rgb(83, 74, 74); 
+
+}
+input[type="checkbox"]:checked+label{
+     font-weight: bolder;
+     color:rgb(100, 83, 83);
+     }
+
+input[type="checkbox"]:disabled+label
+{
+     color:rgb(100, 83, 83);
+}
+input[type="checkbox"]+label{
+    font-weight:bold;
+    color:black;
+    }
+
+
+ 
+
+

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>To-Do List</title>
+    <style>
+        body{
+            background-image: linear-gradient(pink,rosybrown);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            min-height: 561px;
+        }
+        input[type=checkbox][disabled]{
+        outline:1px solid black; 
+        background: brown;
+}
+        
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="topnav">
+            <a class="active" href="#" style="margin-left: 35%;" onclick="ajax()">ToDo List</a>
+            <a href="index.html">LogOut</a>
+          </div>
+        <h1 id="head" >THINGS TO DO</h1>
+        <div id="todo">
+          
+
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
